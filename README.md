@@ -122,5 +122,15 @@ images/
 
 This was one of my early projects to understand basic sensor interfacing and automation.
 
+## 📸 Project Images
+
+### Parking Model Setup
+![Model](images/setup_model.jpg)
+
+### LCD Output Display
+![LCD](images/lcd_output.jpg)
+
+### Wiring and Circuit Setup
+![Wiring](images/wiring_setup.jpg)
 
 
