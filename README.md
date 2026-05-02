@@ -1,8 +1,8 @@
-\# 🚗 Smart Parking Management System (Arduino)
+# 🚗 Smart Parking Management System (Arduino)
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -14,41 +14,41 @@ The system detects whether parking slots are occupied and shows the status on an
 
 
 
-\---
+---
 
 
 
-\## Components Used
+## Components Used
 
 
 
-\* Arduino Uno
+* Arduino Uno
 
-\* IR Sensors
+* IR Sensors
 
-\* Servo Motor
+* Servo Motor
 
-\* 16x2 LCD (I2C)
+* 16x2 LCD (I2C)
 
-\* Jumper wires
-
-
-
-\---
+* Jumper wires
 
 
 
-\## Working
+---
 
 
 
-\* When a car arrives at the entrance, the IR sensor detects it
+## Working
+
+
+
+* When a car arrives at the entrance, the IR sensor detects it
 
 &#x20; → Gate opens using servo
 
 
 
-\* Each parking slot has an IR sensor
+* Each parking slot has an IR sensor
 
 &#x20; → If occupied → shows "Full"
 
@@ -56,55 +56,54 @@ The system detects whether parking slots are occupied and shows the status on an
 
 
 
-\* LCD updates status continuously
+* LCD updates status continuously
 
 
 
-\---
+---
 
 
 
-\## Issues Faced
+## Issues Faced
 
 
 
-\* LCD display was very faint initially
+* LCD display was very faint initially
 
 &#x20; → Fixed by connecting to 5V instead of 3.3V
 
 
 
-\* IR sensor gave false readings sometimes
+* IR sensor gave false readings sometimes
 
 &#x20; → Improved by adjusting placement
 
 
-
-\---
-
-
-
-\## Future Improvements
+---
 
 
 
-\* Add IoT integration
-
-\* Use better sensors (ultrasonic)
-
-\* Add mobile app
+## Future Improvements
 
 
 
-\---
+* Add IoT integration
+
+* Use better sensors (ultrasonic)
+
+* Add mobile app
 
 
 
-\## 📁 Project Structure
+---
 
 
 
-smart\_parking.ino
+## 📁 Project Structure
+
+
+
+smart_parking.ino
 
 README.md
 
@@ -112,11 +111,11 @@ images/
 
 
 
-\---
+---
 
 
 
-\## Note
+## Note
 
 
 
